@@ -1,0 +1,109 @@
+{
+  "header": {
+    "logo": "EdusiaHub",
+    "tagline": "Jalan Menuju Pembelajaran yang Adil untuk Setiap Anak",
+    "navigation": {
+      "home": "Beranda",
+      "about": "Tentang Kami",
+      "challenges": "Tantangan & Realita",
+      "solutions": "Solusi Strategis",
+      "resources": "Pusat Sumber Daya",
+      "getInvolved": "Ayo Berkontribusi",
+      "blog": "Blog",
+      "contact": "Kontak",
+      "more": "Lainnya"
+    }
+  },
+  "hero": {
+    "title": "Membentuk Masa Depan Pendidikan Inklusif di Indonesia.",
+    "subtitle": "Selamat datang di gerakan untuk mewujudkan janji pendidikan inklusif. Sejalan dengan Tujuan Pembangunan Berkelanjutan (SDG) 4, kami percaya setiap anak berhak atas kesempatan belajar yang berkualitas. Meskipun Indonesia memiliki lebih dari 40.000 sekolah yang menerima siswa berkebutuhan khusus, tantangan besar masih menghadang: kurangnya sumber daya belajar yang aksesibel dan deteksi dini yang vital.",
+    "keyPoints": {
+      "point1": {
+        "title": "Fakta",
+        "description": "Hampir 30% anak dengan disabilitas di Indonesia tidak memiliki akses ke pendidikan."
+      },
+      "point2": {
+        "title": "Kesenjangan",
+        "description": "Banyak sekolah belum siap, dengan hanya sebagian kecil yang memiliki guru pembimbing terlatih."
+      },
+      "point3": {
+        "title": "Visi Kami",
+        "description": "Menjembatani kesenjangan ini dengan platform digital untuk pembelajaran dan skrining tumbuh kembang, memberdayakan guru, orang tua, dan terutama, setiap anak."
+      }
+    },
+    "buttons": {
+      "discoverRole": "Temukan Peran Anda",
+      "viewData": "Lihat Data & Fakta"
+    }
+  },
+  "challenge": {
+    "title": "Realita yang Kita Hadapi",
+    "subtitle": "Memahami tantangan pendidikan inklusif di Indonesia",
+    "description": "Meskipun visi pendidikan inklusif sudah jelas, jalan menuju implementasi menghadapi hambatan signifikan yang memerlukan perhatian dan tindakan kolektif kita.",
+    "challenge1": {
+      "title": "Infrastruktur Terbatas",
+      "description": "Banyak sekolah kekurangan infrastruktur fisik dan teknologi yang diperlukan untuk mendukung kebutuhan pembelajaran yang beragam.",
+      "stat": "65%",
+      "statLabel": "sekolah kekurangan fitur aksesibilitas"
+    },
+    "challenge2": {
+      "title": "Kesenjangan Pelatihan Guru",
+      "description": "Pendidik sering kali kurang pelatihan khusus untuk mengajar siswa dengan kemampuan beragam secara efektif.",
+      "stat": "78%",
+      "statLabel": "guru memerlukan pelatihan tambahan"
+    },
+    "challenge3": {
+      "title": "Stigma Sosial",
+      "description": "Kesalahpahaman budaya dan stigma terus menciptakan hambatan bagi anak-anak dengan disabilitas.",
+      "stat": "42%",
+      "statLabel": "keluarga menghadapi diskriminasi"
+    }
+  },
+  "solution": {
+    "title": "Solusi Strategis",
+    "subtitle": "Pendekatan komprehensif untuk membangun sistem pendidikan inklusif",
+    "description": "Kami percaya pada solusi praktis dan dapat diskalakan yang mengatasi akar penyebab eksklusi pendidikan.",
+    "solution1": {
+      "title": "Pengembangan Infrastruktur",
+      "description": "Membangun lingkungan belajar yang aksesibel dengan teknologi modern dan alat adaptif.",
+      "feature": "Prinsip desain universal"
+    },
+    "solution2": {
+      "title": "Pemberdayaan Guru",
+      "description": "Program pelatihan komprehensif yang melengkapi pendidik dengan strategi mengajar inklusif.",
+      "feature": "Program sertifikasi khusus"
+    },
+    "solution3": {
+      "title": "Keterlibatan Komunitas",
+      "description": "Mendorong kemitraan antara sekolah, keluarga, dan komunitas untuk menciptakan ekosistem yang mendukung.",
+      "feature": "Program pendidikan orang tua"
+    }
+  },
+  "callToAction": {
+    "title": "Bergabunglah dengan Gerakan",
+    "subtitle": "Bersama, kita dapat menciptakan masa depan yang lebih inklusif untuk setiap anak",
+    "description": "Baik Anda seorang pendidik, orang tua, pembuat kebijakan, atau warga negara yang peduli, ada peran untuk Anda dalam perjalanan transformatif ini.",
+    "buttons": {
+      "donate": "Donasi Sekarang",
+      "volunteer": "Jadi Relawan",
+      "learnMore": "Pelajari Lebih Lanjut"
+    }
+  },
+  "footer": {
+    "description": "EdusiaHub berdedikasi untuk memajukan pendidikan inklusif di Indonesia melalui penelitian, advokasi, dan solusi praktis.",
+    "links": {
+      "about": "Tentang Kami",
+      "programs": "Program",
+      "resources": "Sumber Daya",
+      "contact": "Kontak",
+      "privacy": "Kebijakan Privasi",
+      "terms": "Ketentuan Layanan"
+    },
+    "newsletter": {
+      "title": "Tetap Terinformasi",
+      "placeholder": "Masukkan email Anda",
+      "button": "Berlangganan"
+    },
+    "copyright": "© 2024 EdusiaHub. Semua hak dilindungi."
+  }
+}

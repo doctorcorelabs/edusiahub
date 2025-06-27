@@ -1,0 +1,109 @@
+{
+  "header": {
+    "logo": "EdusiaHub",
+    "tagline": "A Path to Equitable Learning for Every Child",
+    "navigation": {
+      "home": "Home",
+      "about": "About Us",
+      "challenges": "Challenges & Reality",
+      "solutions": "Strategic Solutions",
+      "resources": "Resource Center",
+      "getInvolved": "Get Involved",
+      "blog": "Blog",
+      "contact": "Contact",
+      "more": "More"
+    }
+  },
+  "hero": {
+    "title": "Shaping the Future of Inclusive Education in Indonesia.",
+    "subtitle": "Welcome to the movement to fulfill the promise of inclusive education. In line with Sustainable Development Goal (SDG) 4, we believe every child deserves a quality learning opportunity. Although Indonesia has over 40,000 schools that accept students with special needs, significant challenges remain: a lack of accessible learning resources and vital early detection.",
+    "keyPoints": {
+      "point1": {
+        "title": "Fact",
+        "description": "Nearly 30% of children with disabilities in Indonesia do not have access to education."
+      },
+      "point2": {
+        "title": "Gap",
+        "description": "Many schools are not yet ready, with only a small fraction having trained guidance teachers."
+      },
+      "point3": {
+        "title": "Our Vision",
+        "description": "Bridging this gap with a digital platform for learning and developmental screening, empowering teachers, parents, and, most importantly, every child."
+      }
+    },
+    "buttons": {
+      "discoverRole": "Discover Your Role",
+      "viewData": "View Data & Facts"
+    }
+  },
+  "challenge": {
+    "title": "The Reality We Face",
+    "subtitle": "Understanding the challenges of inclusive education in Indonesia",
+    "description": "While the vision of inclusive education is clear, the path to implementation faces significant obstacles that require our collective attention and action.",
+    "challenge1": {
+      "title": "Limited Infrastructure",
+      "description": "Many schools lack the physical and technological infrastructure needed to support diverse learning needs.",
+      "stat": "65%",
+      "statLabel": "of schools lack accessibility features"
+    },
+    "challenge2": {
+      "title": "Teacher Training Gaps",
+      "description": "Educators often lack specialized training to effectively teach students with diverse abilities.",
+      "stat": "78%",
+      "statLabel": "of teachers need additional training"
+    },
+    "challenge3": {
+      "title": "Social Stigma",
+      "description": "Cultural misconceptions and stigma continue to create barriers for children with disabilities.",
+      "stat": "42%",
+      "statLabel": "of families face discrimination"
+    }
+  },
+  "solution": {
+    "title": "Strategic Solutions",
+    "subtitle": "Comprehensive approaches to building inclusive education systems",
+    "description": "We believe in practical, scalable solutions that address the root causes of educational exclusion.",
+    "solution1": {
+      "title": "Infrastructure Development",
+      "description": "Building accessible learning environments with modern technology and adaptive tools.",
+      "feature": "Universal design principles"
+    },
+    "solution2": {
+      "title": "Teacher Empowerment",
+      "description": "Comprehensive training programs that equip educators with inclusive teaching strategies.",
+      "feature": "Specialized certification programs"
+    },
+    "solution3": {
+      "title": "Community Engagement",
+      "description": "Fostering partnerships between schools, families, and communities to create supportive ecosystems.",
+      "feature": "Parent education programs"
+    }
+  },
+  "callToAction": {
+    "title": "Join the Movement",
+    "subtitle": "Together, we can create a more inclusive future for every child",
+    "description": "Whether you're an educator, parent, policymaker, or concerned citizen, there's a role for you in this transformative journey.",
+    "buttons": {
+      "donate": "Donate Now",
+      "volunteer": "Volunteer",
+      "learnMore": "Learn More"
+    }
+  },
+  "footer": {
+    "description": "EdusiaHub is dedicated to advancing inclusive education in Indonesia through research, advocacy, and practical solutions.",
+    "links": {
+      "about": "About Us",
+      "programs": "Programs",
+      "resources": "Resources",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "copyright": "© 2024 EdusiaHub. All rights reserved."
+  }
+}
