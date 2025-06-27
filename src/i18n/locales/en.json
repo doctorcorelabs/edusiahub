@@ -11,12 +11,13 @@
       "getInvolved": "Get Involved",
       "blog": "Blog",
       "contact": "Contact",
-      "more": "More"
+      "more": "Explore More"
     }
   },
   "hero": {
-    "title": "Shaping the Future of Inclusive Education in Indonesia.",
-    "subtitle": "Welcome to the movement to fulfill the promise of inclusive education. In line with Sustainable Development Goal (SDG) 4, we believe every child deserves a quality learning opportunity. Although Indonesia has over 40,000 schools that accept students with special needs, significant challenges remain: a lack of accessible learning resources and vital early detection.",
+    "title": "Shaping the Future of Inclusive Education in Indonesia",
+    "subtitle": "Welcome to the movement to fulfill the promise of inclusive education. In line with Sustainable Development Goal (SDG) 4, we believe every child deserves a quality learning opportunity.",
+    "sdgBadge": "SDG 4 - Quality Education",
     "keyPoints": {
       "point1": {
         "title": "Fact",
@@ -34,6 +35,104 @@
     "buttons": {
       "discoverRole": "Discover Your Role",
       "viewData": "View Data & Facts"
+    },
+    "stats": {
+      "title": "Real-Time Impact",
+      "stat1": {
+        "number": "40K+",
+        "label": "Inclusive Schools",
+        "description": "Schools actively implementing inclusive programs"
+      },
+      "stat2": {
+        "number": "30%",
+        "label": "Children Need Access",
+        "description": "Children with disabilities still lack proper access"
+      },
+      "stat3": {
+        "number": "95%",
+        "label": "Success Rate",
+        "description": "Schools report improved learning outcomes"
+      }
+    },
+    "floatingCards": {
+      "card1": {
+        "title": "Inclusive Learning",
+        "subtitle": "Every child matters"
+      },
+      "card2": {
+        "title": "Digital Learning Resources",
+        "subtitle": "Accessible educational materials for all learning styles"
+      },
+      "card3": {
+        "title": "Early Detection",
+        "subtitle": "Screening tools for developmental assessment"
+      }
+    },
+    "scrollIndicator": "Scroll to explore"
+  },
+  "impactMetrics": {
+    "title": "Measurable Impact",
+    "subtitle": "See the transformation in educational outcomes before and after implementing EdusiaHub solutions",
+    "categories": {
+      "learningOutcomes": "Learning Outcomes",
+      "teacherConfidence": "Teacher Confidence",
+      "parentSatisfaction": "Parent Satisfaction",
+      "studentEngagement": "Student Engagement"
+    },
+    "labels": {
+      "before": "Before",
+      "after": "After",
+      "improvement": "Improvement"
+    }
+  },
+  "progress": {
+    "title": "Our Progress Towards Inclusive Education",
+    "subtitle": "Track our journey in building a more inclusive educational system across Indonesia",
+    "journeyTitle": "Our Journey",
+    "areas": {
+      "infrastructure": "Infrastructure",
+      "teacherTraining": "Teacher Training",
+      "resourceAccess": "Resource Access",
+      "communitySupport": "Community Support"
+    },
+    "timeline": {
+      "2025": {
+        "foundation": {
+          "title": "Foundation Established",
+          "description": "EdusiaHub was founded with a mission to bridge educational gaps"
+        },
+        "aiAssessment": {
+          "title": "AI-Powered Assessment",
+          "description": "Introducing AI-powered early detection tools"
+        }
+      },
+      "2026": {
+        "first100": {
+          "title": "First 100 Schools",
+          "description": "Successfully implemented inclusive programs in 100 schools"
+        },
+        "platform": {
+          "title": "Digital Platform Launch",
+          "description": "Launched comprehensive digital learning platform"
+        }
+      },
+      "2027": {
+        "expansion": {
+          "title": "National Expansion",
+          "description": "Expanded to 40,000+ schools across Indonesia"
+        }
+      },
+      "2028": {
+        "partnership": {
+          "title": "Global Partnership",
+          "description": "Partnering with international organizations"
+        }
+      }
+    },
+    "status": {
+      "completed": "completed",
+      "current": "current",
+      "upcoming": "upcoming"
     }
   },
   "challenge": {

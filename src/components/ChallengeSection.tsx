@@ -54,11 +54,6 @@ const ChallengeSection = () => {
           ))}
         </div>
 
-        <div className="text-center">
-          <Button size="lg" variant="outline" className="px-8 py-3">
-            {t('challenge.subtitle')}
-          </Button>
-        </div>
       </div>
     </section>
   );

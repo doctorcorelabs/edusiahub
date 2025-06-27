@@ -11,12 +11,13 @@
       "getInvolved": "Ayo Berkontribusi",
       "blog": "Blog",
       "contact": "Kontak",
-      "more": "Lainnya"
+      "more": "Jelajahi"
     }
   },
   "hero": {
-    "title": "Membentuk Masa Depan Pendidikan Inklusif di Indonesia.",
-    "subtitle": "Selamat datang di gerakan untuk mewujudkan janji pendidikan inklusif. Sejalan dengan Tujuan Pembangunan Berkelanjutan (SDG) 4, kami percaya setiap anak berhak atas kesempatan belajar yang berkualitas. Meskipun Indonesia memiliki lebih dari 40.000 sekolah yang menerima siswa berkebutuhan khusus, tantangan besar masih menghadang: kurangnya sumber daya belajar yang aksesibel dan deteksi dini yang vital.",
+    "title": "Membentuk Masa Depan Pendidikan Inklusif di Indonesia",
+    "subtitle": "Selamat datang di gerakan untuk mewujudkan janji pendidikan inklusif. Sejalan dengan Tujuan Pembangunan Berkelanjutan (SDG) 4, kami percaya setiap anak berhak atas kesempatan belajar yang berkualitas.",
+    "sdgBadge": "SDG 4 - Pendidikan Berkualitas",
     "keyPoints": {
       "point1": {
         "title": "Fakta",
@@ -34,6 +35,104 @@
     "buttons": {
       "discoverRole": "Temukan Peran Anda",
       "viewData": "Lihat Data & Fakta"
+    },
+    "stats": {
+      "title": "Dampak Real-Time",
+      "stat1": {
+        "number": "40K+",
+        "label": "Sekolah Inklusif",
+        "description": "Sekolah yang aktif mengimplementasikan program inklusif"
+      },
+      "stat2": {
+        "number": "30%",
+        "label": "Anak Perlu Akses",
+        "description": "Anak dengan disabilitas masih kekurangan akses yang tepat"
+      },
+      "stat3": {
+        "number": "95%",
+        "label": "Tingkat Keberhasilan",
+        "description": "Sekolah melaporkan peningkatan hasil pembelajaran"
+      }
+    },
+    "floatingCards": {
+      "card1": {
+        "title": "Pembelajaran Inklusif",
+        "subtitle": "Setiap anak penting"
+      },
+      "card2": {
+        "title": "Sumber Daya Pembelajaran Digital",
+        "subtitle": "Materi pendidikan yang aksesibel untuk semua gaya belajar"
+      },
+      "card3": {
+        "title": "Deteksi Dini",
+        "subtitle": "Alat skrining untuk penilaian tumbuh kembang"
+      }
+    },
+    "scrollIndicator": "Gulir untuk menjelajahi"
+  },
+  "impactMetrics": {
+    "title": "Dampak yang Terukur",
+    "subtitle": "Lihat transformasi dalam hasil pendidikan sebelum dan sesudah mengimplementasikan solusi EdusiaHub",
+    "categories": {
+      "learningOutcomes": "Hasil Pembelajaran",
+      "teacherConfidence": "Kepercayaan Diri Guru",
+      "parentSatisfaction": "Kepuasan Orang Tua",
+      "studentEngagement": "Keterlibatan Siswa"
+    },
+    "labels": {
+      "before": "Sebelum",
+      "after": "Sesudah",
+      "improvement": "Peningkatan"
+    }
+  },
+  "progress": {
+    "title": "Kemajuan Kami Menuju Pendidikan Inklusif",
+    "subtitle": "Lacak perjalanan kami dalam membangun sistem pendidikan yang lebih inklusif di seluruh Indonesia",
+    "journeyTitle": "Perjalanan Kami",
+    "areas": {
+      "infrastructure": "Infrastruktur",
+      "teacherTraining": "Pelatihan Guru",
+      "resourceAccess": "Akses Sumber Daya",
+      "communitySupport": "Dukungan Komunitas"
+    },
+    "timeline": {
+      "2025": {
+        "foundation": {
+          "title": "Yayasan Didirikan",
+          "description": "EdusiaHub didirikan dengan misi menjembatani kesenjangan pendidikan"
+        },
+        "aiAssessment": {
+          "title": "Penilaian Berbasis AI",
+          "description": "Memperkenalkan alat deteksi dini berbasis AI"
+        }
+      },
+      "2026": {
+        "first100": {
+          "title": "100 Sekolah Pertama",
+          "description": "Berhasil mengimplementasikan program inklusif di 100 sekolah"
+        },
+        "platform": {
+          "title": "Peluncuran Platform Digital",
+          "description": "Meluncurkan platform pembelajaran digital yang komprehensif"
+        }
+      },
+      "2027": {
+        "expansion": {
+          "title": "Ekspansi Nasional",
+          "description": "Memperluas ke lebih dari 40.000 sekolah di seluruh Indonesia"
+        }
+      },
+      "2028": {
+        "partnership": {
+          "title": "Kemitraan Global",
+          "description": "Berkolaborasi dengan organisasi internasional"
+        }
+      }
+    },
+    "status": {
+      "completed": "selesai",
+      "current": "berlangsung",
+      "upcoming": "mendatang"
     }
   },
   "challenge": {

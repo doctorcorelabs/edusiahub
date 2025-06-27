@@ -51,48 +51,48 @@ const HeroSection = () => {
 
   const stats = [
     { 
-      number: '40K+', 
-      label: 'Inclusive Schools', 
+      number: t('hero.stats.stat1.number'), 
+      label: t('hero.stats.stat1.label'), 
       icon: Globe,
       color: 'text-blue-600',
       bgColor: 'bg-blue-50',
-      description: 'Schools actively implementing inclusive programs'
+      description: t('hero.stats.stat1.description')
     },
     { 
-      number: '30%', 
-      label: 'Children Need Access', 
+      number: t('hero.stats.stat2.number'), 
+      label: t('hero.stats.stat2.label'), 
       icon: Heart,
       color: 'text-red-600',
       bgColor: 'bg-red-50',
-      description: 'Children with disabilities still lack proper access'
+      description: t('hero.stats.stat2.description')
     },
     { 
-      number: '95%', 
-      label: 'Success Rate', 
+      number: t('hero.stats.stat3.number'), 
+      label: t('hero.stats.stat3.label'), 
       icon: Award,
       color: 'text-green-600',
       bgColor: 'bg-green-50',
-      description: 'Schools report improved learning outcomes'
+      description: t('hero.stats.stat3.description')
     },
   ];
 
   const features = [
     {
       icon: BookOpen,
-      title: "Digital Learning Resources",
-      description: "Accessible educational materials for all learning styles",
+      title: t('hero.floatingCards.card2.title'),
+      description: t('hero.floatingCards.card2.subtitle'),
       color: "from-blue-500 to-cyan-500"
     },
     {
       icon: Users,
-      title: "Teacher Training",
-      description: "Comprehensive programs for inclusive education",
+      title: t('hero.floatingCards.card1.title'),
+      description: t('hero.floatingCards.card1.subtitle'),
       color: "from-purple-500 to-pink-500"
     },
     {
       icon: ShieldCheck,
-      title: "Early Detection",
-      description: "Screening tools for developmental assessment",
+      title: t('hero.floatingCards.card3.title'),
+      description: t('hero.floatingCards.card3.subtitle'),
       color: "from-green-500 to-emerald-500"
     }
   ];
@@ -115,62 +115,62 @@ const HeroSection = () => {
   ];
 
   const progressData = [
-    { label: "Infrastructure", percentage: 65, color: "bg-blue-500" },
-    { label: "Teacher Training", percentage: 45, color: "bg-green-500" },
-    { label: "Resource Access", percentage: 78, color: "bg-purple-500" },
-    { label: "Community Support", percentage: 82, color: "bg-orange-500" }
+    { label: t('progress.areas.infrastructure'), percentage: 65, color: "bg-blue-500" },
+    { label: t('progress.areas.teacherTraining'), percentage: 45, color: "bg-green-500" },
+    { label: t('progress.areas.resourceAccess'), percentage: 78, color: "bg-purple-500" },
+    { label: t('progress.areas.communitySupport'), percentage: 82, color: "bg-orange-500" }
   ];
 
   const timeline = [
     {
-      year: "2020",
-      title: "Foundation Established",
-      description: "EdusiaHub was founded with a mission to bridge educational gaps",
+      year: "2025",
+      title: t('progress.timeline.2025.foundation.title'),
+      description: t('progress.timeline.2025.foundation.description'),
       status: "completed",
       icon: CheckCircle
     },
     {
-      year: "2021",
-      title: "First 100 Schools",
-      description: "Successfully implemented inclusive programs in 100 schools",
-      status: "completed",
-      icon: CheckCircle
-    },
-    {
-      year: "2022",
-      title: "Digital Platform Launch",
-      description: "Launched comprehensive digital learning platform",
-      status: "completed",
-      icon: CheckCircle
-    },
-    {
-      year: "2023",
-      title: "National Expansion",
-      description: "Expanded to 40,000+ schools across Indonesia",
-      status: "completed",
-      icon: CheckCircle
-    },
-    {
-      year: "2024",
-      title: "AI-Powered Assessment",
-      description: "Introducing AI-powered early detection tools",
+      year: "2025",
+      title: t('progress.timeline.2025.aiAssessment.title'),
+      description: t('progress.timeline.2025.aiAssessment.description'),
       status: "current",
       icon: Clock
     },
     {
-      year: "2025",
-      title: "Global Partnership",
-      description: "Partnering with international organizations",
+      year: "2026",
+      title: t('progress.timeline.2026.first100.title'),
+      description: t('progress.timeline.2026.first100.description'),
+      status: "upcoming",
+      icon: Calendar
+    },
+    {
+      year: "2026",
+      title: t('progress.timeline.2026.platform.title'),
+      description: t('progress.timeline.2026.platform.description'),
+      status: "upcoming",
+      icon: Calendar
+    },
+    {
+      year: "2027",
+      title: t('progress.timeline.2027.expansion.title'),
+      description: t('progress.timeline.2027.expansion.description'),
+      status: "upcoming",
+      icon: Calendar
+    },
+    {
+      year: "2028",
+      title: t('progress.timeline.2028.partnership.title'),
+      description: t('progress.timeline.2028.partnership.description'),
       status: "upcoming",
       icon: Calendar
     }
   ];
 
   const impactData = [
-    { category: "Learning Outcomes", before: 45, after: 78, color: "from-green-400 to-green-600" },
-    { category: "Teacher Confidence", before: 32, after: 85, color: "from-blue-400 to-blue-600" },
-    { category: "Parent Satisfaction", before: 58, after: 92, color: "from-purple-400 to-purple-600" },
-    { category: "Student Engagement", before: 41, after: 89, color: "from-orange-400 to-orange-600" }
+    { category: t('impactMetrics.categories.learningOutcomes'), before: 45, after: 78, color: "from-green-400 to-green-600" },
+    { category: t('impactMetrics.categories.teacherConfidence'), before: 32, after: 85, color: "from-blue-400 to-blue-600" },
+    { category: t('impactMetrics.categories.parentSatisfaction'), before: 58, after: 92, color: "from-purple-400 to-purple-600" },
+    { category: t('impactMetrics.categories.studentEngagement'), before: 41, after: 89, color: "from-orange-400 to-orange-600" }
   ];
 
   return (
@@ -191,11 +191,20 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            Shaping the Future of{' '}
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Inclusive Education
-            </span>{' '}
-            in Indonesia
+            {(() => {
+              const title = t('hero.title');
+              // For EN: Shaping the Future of Inclusive Education in Indonesia
+              // For ID: Membentuk Masa Depan Pendidikan Inklusif di Indonesia
+              if (title.includes('Inclusive Education')) {
+                const [before, after] = title.split('Inclusive Education');
+                return <>{before}<span className="text-purple-600">Inclusive</span> <span className="text-blue-600">Education</span>{after}</>;
+              } else if (title.includes('Pendidikan Inklusif')) {
+                const [before, after] = title.split('Pendidikan Inklusif');
+                return <>{before}<span className="text-purple-600">Pendidikan</span> <span className="text-blue-600">Inklusif</span>{after}</>;
+              } else {
+                return title;
+              }
+            })()}
           </motion.h1>
         </div>
 
@@ -216,7 +225,7 @@ const HeroSection = () => {
                 transition={{ delay: 0.2 }}
               >
                 <span className="w-2.5 h-2.5 bg-blue-500 rounded-full"></span>
-                <span>SDG 4 - Quality Education</span>
+                <span>{t('hero.sdgBadge')}</span>
               </motion.div>
               <div className="space-y-6">
                 <motion.p 
@@ -225,9 +234,7 @@ const HeroSection = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.4 }}
                 >
-                  Welcome to the movement to fulfill the promise of inclusive education. 
-                  In line with Sustainable Development Goal (SDG) 4, we believe every child 
-                  deserves a quality learning opportunity.
+                  {t('hero.subtitle')}
                 </motion.p>
               </div>
 
@@ -240,7 +247,7 @@ const HeroSection = () => {
               >
                 <div className="flex items-center gap-3 mb-6">
                   <Activity className="w-6 h-6 text-blue-600" />
-                  <h3 className="text-xl font-bold text-gray-900">Real-Time Impact</h3>
+                  <h3 className="text-xl font-bold text-gray-900">{t('hero.stats.title')}</h3>
                 </div>
                 
                 <div className="text-center mb-6">
@@ -331,49 +338,57 @@ const HeroSection = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
                   {/* Floating cards - posisi tengah bawah, tidak menutupi teks */}
-                  <div className="absolute left-1/2 bottom-6 transform -translate-x-1/2 flex flex-col items-center gap-6 w-full px-4 pointer-events-none z-20">
+                  <div className="absolute left-1/2 bottom-6 transform -translate-x-1/2 flex flex-col items-center gap-2 md:gap-4 w-full px-4 pointer-events-none z-20">
                     <motion.div 
-                      className="bg-white/30 backdrop-blur-lg rounded-2xl p-6 shadow-lg border border-white/40 max-w-xs w-full pointer-events-auto md:-translate-x-8 md:self-start"
+                      className="bg-white/30 backdrop-blur-lg rounded-2xl p-3 md:p-4 shadow-lg border border-white/40 max-w-xs w-full pointer-events-auto -translate-x-8 self-start"
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 1 }}
                       whileHover={{ scale: 1.05 }}
                     >
                       <div className="flex items-center gap-3">
-                        <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-                          <Users className="w-6 h-6 text-green-600" />
+                        <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-emerald-500 rounded-lg flex items-center justify-center">
+                          <Users className="w-4 h-4 text-white" />
                         </div>
                         <div>
-                          <div className="text-sm font-medium text-gray-900">Inclusive Learning</div>
-                          <div className="text-xs text-gray-600">Every child matters</div>
+                          <div className="text-sm font-medium text-white">{t('hero.floatingCards.card1.title')}</div>
+                          <div className="text-xs text-white">{t('hero.floatingCards.card1.subtitle')}</div>
                         </div>
                       </div>
                     </motion.div>
                     <motion.div
-                      className="bg-white/30 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-white/40 max-w-xs w-full pointer-events-auto md:translate-x-8 md:self-end"
+                      className="bg-white/30 backdrop-blur-lg rounded-xl p-3 md:p-4 shadow-lg border border-white/40 max-w-xs w-full pointer-events-auto translate-x-8 self-end"
                       initial={{ opacity: 0, y: 40 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 1.2 }}
                       whileHover={{ scale: 1.05 }}
                     >
-                      <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center mb-2">
-                        <BookOpen className="w-4 h-4 text-white" />
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center">
+                          <BookOpen className="w-4 h-4 text-white" />
+                        </div>
+                        <div>
+                          <div className="text-sm font-medium text-white">{t('hero.floatingCards.card2.title')}</div>
+                          <div className="text-xs text-white">{t('hero.floatingCards.card2.subtitle')}</div>
+                        </div>
                       </div>
-                      <div className="text-xs font-semibold text-gray-900 mb-1">Digital Learning Resources</div>
-                      <div className="text-xs text-gray-600">Accessible educational materials for all learning styles</div>
                     </motion.div>
                     <motion.div
-                      className="bg-white/30 backdrop-blur-lg rounded-xl p-4 shadow-lg border border-white/40 max-w-xs w-full pointer-events-auto md:-translate-x-4 md:self-center"
+                      className="bg-white/30 backdrop-blur-lg rounded-xl p-3 md:p-4 shadow-lg border border-white/40 max-w-xs w-full pointer-events-auto -translate-x-4 self-center"
                       initial={{ opacity: 0, y: 60 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 1.4 }}
                       whileHover={{ scale: 1.05 }}
                     >
-                      <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-emerald-500 rounded-lg flex items-center justify-center mb-2">
-                        <ShieldCheck className="w-4 h-4 text-white" />
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
+                          <ShieldCheck className="w-4 h-4 text-white" />
+                        </div>
+                        <div>
+                          <div className="text-sm font-medium text-white">{t('hero.floatingCards.card3.title')}</div>
+                          <div className="text-xs text-white">{t('hero.floatingCards.card3.subtitle')}</div>
+                        </div>
                       </div>
-                      <div className="text-xs font-semibold text-gray-900 mb-1">Early Detection</div>
-                      <div className="text-xs text-gray-600">Screening tools for developmental assessment</div>
                     </motion.div>
                   </div>
                 </div>
@@ -411,7 +426,7 @@ const HeroSection = () => {
           transition={{ delay: 1.5 }}
         >
           <div className="flex flex-col items-center text-gray-400">
-            <span className="text-sm mb-2">Scroll to explore</span>
+            <span className="text-sm mb-2">{t('hero.scrollIndicator')}</span>
             <div className="w-6 h-10 border-2 border-gray-300 rounded-full flex justify-center">
               <motion.div 
                 className="w-1 h-3 bg-gray-400 rounded-full mt-2"
@@ -438,10 +453,10 @@ const HeroSection = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Measurable Impact
+              {t('impactMetrics.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              See the transformation in educational outcomes before and after implementing EdusiaHub solutions
+              {t('impactMetrics.subtitle')}
             </p>
           </motion.div>
 
@@ -460,7 +475,7 @@ const HeroSection = () => {
                 
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-600">Before</span>
+                    <span className="text-sm text-gray-600">{t('impactMetrics.labels.before')}</span>
                     <span className="text-lg font-bold text-gray-400">{item.before}%</span>
                   </div>
                   
@@ -475,7 +490,7 @@ const HeroSection = () => {
                   </div>
                   
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-600">After</span>
+                    <span className="text-sm text-gray-600">{t('impactMetrics.labels.after')}</span>
                     <span className="text-lg font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
                       {item.after}%
                     </span>
@@ -496,7 +511,7 @@ const HeroSection = () => {
                   <span className="text-2xl font-bold text-green-600">
                     +{item.after - item.before}%
                   </span>
-                  <div className="text-xs text-gray-600">Improvement</div>
+                  <div className="text-xs text-gray-600">{t('impactMetrics.labels.improvement')}</div>
                 </div>
               </motion.div>
             ))}
@@ -515,10 +530,10 @@ const HeroSection = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Our Progress Towards Inclusive Education
+              {t('progress.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Track our journey in building a more inclusive educational system across Indonesia
+              {t('progress.subtitle')}
             </p>
           </motion.div>
 
@@ -565,7 +580,7 @@ const HeroSection = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-8">Our Journey</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-8">{t('progress.journeyTitle')}</h3>
               {timeline.map((item, index) => (
                 <motion.div 
                   key={index}
@@ -592,7 +607,7 @@ const HeroSection = () => {
                         item.status === 'current' ? 'bg-blue-100 text-blue-800' :
                         'bg-gray-100 text-gray-800'
                       }`}>
-                        {item.status}
+                        {t(`progress.status.${item.status}`)}
                       </span>
                     </div>
                     <h4 className="font-semibold text-gray-900 mb-1">{item.title}</h4>
@@ -605,100 +620,7 @@ const HeroSection = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div 
-            className="text-center mb-16"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              What Educators Say
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Hear from teachers and school leaders who have transformed their approach to inclusive education
-            </p>
-          </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <motion.div
-                key={index}
-                className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 shadow-lg border border-blue-100"
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: index * 0.2 }}
-                viewport={{ once: true }}
-                whileHover={{ y: -5 }}
-              >
-                <div className="flex items-center gap-1 mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                  ))}
-                </div>
-                
-                <Quote className="w-8 h-8 text-blue-600 mb-4" />
-                
-                <p className="text-gray-700 mb-6 leading-relaxed">
-                  "{testimonial.content}"
-                </p>
-                
-                <div className="flex items-center gap-4">
-                  <img
-                    src={testimonial.avatar}
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
-                  <div>
-                    <div className="font-semibold text-gray-900">{testimonial.name}</div>
-                    <div className="text-sm text-gray-600">{testimonial.role}</div>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Enhanced CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-4xl font-bold text-white mb-4">
-              Ready to Make a Difference?
-            </h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Join thousands of educators, parents, and advocates working together to create inclusive learning environments for every child in Indonesia.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                size="lg" 
-                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold shadow-lg transform hover:scale-105 transition-all duration-300 group"
-              >
-                Get Started Today
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg font-semibold transform hover:scale-105 transition-all duration-300"
-              >
-                Learn More
-              </Button>
-            </div>
-          </motion.div>
-        </div>
-      </section>
     </>
   );
 };

@@ -10,7 +10,8 @@ import {
   Users,
   Newspaper,
   Mail,
-  ChevronDown
+  ChevronDown,
+  Compass
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
@@ -53,7 +54,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-white/80 border-b border-white/30 shadow-lg rounded-b-2xl transition-all">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white border-b border-gray-200 shadow-lg rounded-b-2xl transition-all">
       <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -88,7 +89,8 @@ const Header = () => {
                 onClick={() => setMoreMenuOpen(!isMoreMenuOpen)}
                 className="group flex items-center gap-2 px-3 py-2 rounded-lg font-medium text-base transition-all duration-200 text-gray-700 hover:text-blue-600"
               >
-                <span>{t('header.more')}</span>
+                <Compass className="w-5 h-5 shrink-0" />
+                <span>{t('header.navigation.more')}</span>
                 <ChevronDown className={`w-5 h-5 transition-transform duration-200 ${isMoreMenuOpen ? 'transform rotate-180' : ''}`} />
               </button>
               {isMoreMenuOpen && (
@@ -132,7 +134,7 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="lg:hidden fixed inset-0 z-50 bg-black/40" onClick={() => setIsMenuOpen(false)}>
-            <div className="absolute top-0 right-0 w-4/5 max-w-xs h-full bg-white/90 backdrop-blur-md shadow-2xl rounded-l-2xl p-6 flex flex-col gap-4 animate-slide-in">
+            <div className="absolute top-0 right-0 w-4/5 max-w-xs h-full bg-white shadow-2xl rounded-l-2xl p-6 flex flex-col gap-4 animate-slide-in">
               <div className="flex justify-between items-center mb-4">
                 <Link to="/" className="text-2xl font-extrabold text-blue-600" onClick={() => setIsMenuOpen(false)}>
                   EdusiaHub
