@@ -12,6 +12,7 @@ import Resources from "./pages/Resources";
 import GetInvolved from "./pages/GetInvolved";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import MainLayout from "./components/MainLayout";
 
 const queryClient = new QueryClient();
 
@@ -22,14 +23,16 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/challenges" element={<Challenges />} />
-          <Route path="/solutions" element={<Solutions />} />
-          <Route path="/resources" element={<Resources />} />
-          <Route path="/get-involved" element={<GetInvolved />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route element={<MainLayout />}>
+            <Route path="/" element={<Index />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/challenges" element={<Challenges />} />
+            <Route path="/solutions" element={<Solutions />} />
+            <Route path="/resources" element={<Resources />} />
+            <Route path="/get-involved" element={<GetInvolved />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/contact" element={<Contact />} />
+          </Route>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
