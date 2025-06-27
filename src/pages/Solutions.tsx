@@ -61,27 +61,27 @@ const Solutions = () => {
     { key: 'phase4', color: 'bg-orange-100 border-orange-300', progress: 25 }
   ];
 
-  // Chart data for visualizations
+  // Chart data for visualizations (now using translation keys)
   const impactData: ChartData[] = [
-    { label: 'Siswa Terlayani', value: 25000, color: '#3B82F6' },
-    { label: 'Sekolah Inklusif', value: 500, color: '#10B981' },
-    { label: 'Guru Terlatih', value: 10000, color: '#8B5CF6' },
-    { label: 'Komunitas Terlibat', value: 200, color: '#F59E0B' }
+    { label: t('solutions.data.impact.students'), value: 25000, color: '#3B82F6' },
+    { label: t('solutions.data.impact.schools'), value: 500, color: '#10B981' },
+    { label: t('solutions.data.impact.teachers'), value: 10000, color: '#8B5CF6' },
+    { label: t('solutions.data.impact.communities'), value: 200, color: '#F59E0B' }
   ];
 
   const regionalData: ChartData[] = [
-    { label: 'Jawa', value: 45, color: '#3B82F6' },
-    { label: 'Sumatera', value: 25, color: '#10B981' },
-    { label: 'Sulawesi', value: 15, color: '#8B5CF6' },
-    { label: 'Kalimantan', value: 10, color: '#F59E0B' },
-    { label: 'Papua & Maluku', value: 5, color: '#EF4444' }
+    { label: t('solutions.data.regional.jawa'), value: 45, color: '#3B82F6' },
+    { label: t('solutions.data.regional.sumatera'), value: 25, color: '#10B981' },
+    { label: t('solutions.data.regional.sulawesi'), value: 15, color: '#8B5CF6' },
+    { label: t('solutions.data.regional.kalimantan'), value: 10, color: '#F59E0B' },
+    { label: t('solutions.data.regional.papuaMaluku'), value: 5, color: '#EF4444' }
   ];
 
   const improvementData: ChartData[] = [
-    { label: 'Partisipasi Siswa', value: 85, color: '#3B82F6' },
-    { label: 'Kepercayaan Diri Guru', value: 90, color: '#10B981' },
-    { label: 'Kepuasan Orang Tua', value: 78, color: '#8B5CF6' },
-    { label: 'Hasil Pembelajaran', value: 82, color: '#F59E0B' }
+    { label: t('solutions.data.improvement.studentParticipation'), value: 85, color: '#3B82F6' },
+    { label: t('solutions.data.improvement.teacherConfidence'), value: 90, color: '#10B981' },
+    { label: t('solutions.data.improvement.parentSatisfaction'), value: 78, color: '#8B5CF6' },
+    { label: t('solutions.data.improvement.learningOutcome'), value: 82, color: '#F59E0B' }
   ];
 
   return (
@@ -148,7 +148,7 @@ const Solutions = () => {
                     {t(`solutions.pillars.${pillar.key}.subtitle`)}
                   </CardDescription>
                 </CardHeader>
-                <CardContent className="text-center flex flex-col items-center">
+                <CardContent className="text-center flex flex-col items-start">
                   <p className="text-gray-700 mb-6 text-center">
                     {t(`solutions.pillars.${pillar.key}.description`)}
                   </p>
@@ -156,9 +156,9 @@ const Solutions = () => {
                   {/* Features List */}
                   <div className="space-y-2 mb-6 flex flex-col items-center">
                     {(t(`solutions.pillars.${pillar.key}.features`, { returnObjects: true }) as string[]).map((feature: string, idx: number) => (
-                      <div key={idx} className="flex items-start justify-center text-sm text-gray-600 w-full max-w-xs">
-                        <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0 mt-1" />
-                        <span className="text-justify w-full block">{feature}</span>
+                      <div key={idx} className="flex items-start justify-start text-sm text-gray-600 w-full">
+                        <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
+                        <span className="w-full block leading-normal text-justify">{feature}</span>
                       </div>
                     ))}
                   </div>
@@ -231,80 +231,38 @@ const Solutions = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Data & Analisis
+              {t('solutions.data.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Visualisasi dampak dan distribusi program pendidikan inklusif
+              {t('solutions.data.subtitle')}
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Chart 
-              title="Dampak Program" 
-              data={impactData} 
-              type="bar" 
-              height={250}
-            />
-            <Chart 
-              title="Distribusi Regional" 
-              data={regionalData} 
-              type="pie" 
-              height={250}
-            />
-            <Chart 
-              title="Peningkatan Kualitas" 
-              data={improvementData} 
-              type="bar" 
-              height={250}
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Success Stories */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              {t('solutions.successStories.title')}
-            </h2>
-            <p className="text-xl text-gray-600">
-              {t('solutions.successStories.subtitle')}
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {(t('solutions.successStories.stories', { returnObjects: true }) as any[]).map((story: any, index: number) => (
-              <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg">
-                <CardHeader>
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
-                      <Star className="w-6 h-6 text-white" />
-                    </div>
-                    <Badge variant="outline" className="bg-green-50 text-green-700 border-green-200">
-                      Success
-                    </Badge>
-                  </div>
-                  <CardTitle className="text-xl font-bold text-gray-900">
-                    {story.school}
-                  </CardTitle>
-                  <CardDescription className="flex items-center text-gray-600">
-                    <MapPin className="w-4 h-4 mr-1" />
-                    {story.location}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="mb-4 p-4 bg-green-50 rounded-lg border border-green-200">
-                    <div className="text-lg font-bold text-green-800 mb-2">
-                      {story.achievement}
-                    </div>
-                  </div>
-                  <p className="text-gray-700 leading-relaxed">
-                    {story.description}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
+            <div className="w-full max-w-full overflow-x-auto">
+              <Chart 
+                title={t('solutions.data.impact.title')} 
+                data={impactData} 
+                type="bar" 
+                height={250}
+              />
+            </div>
+            <div className="w-full max-w-full overflow-x-auto">
+              <Chart 
+                title={t('solutions.data.regional.title')} 
+                data={regionalData} 
+                type="pie" 
+                height={250}
+              />
+            </div>
+            <div className="w-full max-w-full overflow-x-auto">
+              <Chart 
+                title={t('solutions.data.improvement.title')} 
+                data={improvementData} 
+                type="bar" 
+                height={250}
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -343,39 +301,6 @@ const Solutions = () => {
                 </CardContent>
               </Card>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Call to Action */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="mb-8">
-              <Lightbulb className="w-16 h-16 mx-auto mb-4 text-yellow-500" />
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                {t('solutions.callToAction.title')}
-              </h2>
-              <p className="text-xl text-gray-600 mb-6">
-                {t('solutions.callToAction.subtitle')}
-              </p>
-              <p className="text-lg text-gray-700">
-                {t('solutions.callToAction.description')}
-              </p>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                {t('solutions.callToAction.buttons.getInvolved')}
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
-              <Button size="lg" variant="outline" className="border-2">
-                {t('solutions.callToAction.buttons.learnMore')}
-              </Button>
-              <Button size="lg" variant="outline" className="border-2">
-                {t('solutions.callToAction.buttons.contact')}
-              </Button>
-            </div>
           </div>
         </div>
       </section>

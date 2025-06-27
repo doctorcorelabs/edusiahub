@@ -479,6 +479,32 @@
         "learnMore": "Learn More",
         "contact": "Contact Us"
       }
+    },
+    "data": {
+      "title": "Data & Analysis",
+      "subtitle": "Visualization of the impact and distribution of inclusive education programs",
+      "impact": {
+        "title": "Program Impact",
+        "students": "Students Served",
+        "schools": "Inclusive Schools",
+        "teachers": "Trained Teachers",
+        "communities": "Communities Involved"
+      },
+      "regional": {
+        "title": "Regional Distribution",
+        "jawa": "Java",
+        "sumatera": "Sumatra",
+        "sulawesi": "Sulawesi",
+        "kalimantan": "Kalimantan",
+        "papuaMaluku": "Papua & Maluku"
+      },
+      "improvement": {
+        "title": "Quality Improvement",
+        "studentParticipation": "Student Participation",
+        "teacherConfidence": "Teacher Confidence",
+        "parentSatisfaction": "Parent Satisfaction",
+        "learningOutcome": "Learning Outcomes"
+      }
     }
   },
   "footer": {

@@ -82,36 +82,6 @@ const Header = () => {
                 </Link>
               );
             })}
-            
-            {/* More Dropdown */}
-            <div className="relative" ref={moreMenuRef}>
-              <button
-                onClick={() => setMoreMenuOpen(!isMoreMenuOpen)}
-                className="group flex items-center gap-2 px-3 py-2 rounded-lg font-medium text-base transition-all duration-200 text-gray-700 hover:text-blue-600"
-              >
-                <Compass className="w-5 h-5 shrink-0" />
-                <span>{t('header.navigation.more')}</span>
-                <ChevronDown className={`w-5 h-5 transition-transform duration-200 ${isMoreMenuOpen ? 'transform rotate-180' : ''}`} />
-              </button>
-              {isMoreMenuOpen && (
-                <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg z-10">
-                  {moreNav.map((item) => {
-                    const Icon = item.icon;
-                    return (
-                      <Link
-                        key={item.name}
-                        to={item.to}
-                        onClick={() => setMoreMenuOpen(false)}
-                        className={`flex items-center gap-3 px-4 py-2 text-base text-gray-700 hover:bg-gray-100 w-full text-left ${isActive(item.to) ? 'font-bold text-blue-700' : ''}`}
-                      >
-                        <Icon className="w-5 h-5 shrink-0" />
-                        <span>{item.name}</span>
-                      </Link>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
             <div className="ml-2 flex items-center">
               <LanguageSwitcher />
             </div>

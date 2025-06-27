@@ -58,7 +58,7 @@ const Chart: React.FC<ChartProps> = ({ title, data, type = 'bar', height = 200 }
           <CardTitle className="text-lg font-semibold">{title}</CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="flex items-center justify-center space-x-8">
+          <div className="flex items-center justify-center space-x-2">
             <div className="relative" style={{ width: height, height }}>
               <svg width={height} height={height} viewBox="0 0 100 100">
                 {data.map((item, index) => {

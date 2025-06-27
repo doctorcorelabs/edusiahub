@@ -496,6 +496,32 @@
         "learnMore": "Pelajari Lebih Lanjut",
         "contact": "Hubungi Kami"
       }
+    },
+    "data": {
+      "title": "Data & Analisis",
+      "subtitle": "Visualisasi dampak dan distribusi program pendidikan inklusif",
+      "impact": {
+        "title": "Dampak Program",
+        "students": "Siswa Terlayani",
+        "schools": "Sekolah Inklusif",
+        "teachers": "Guru Terlatih",
+        "communities": "Komunitas Terlibat"
+      },
+      "regional": {
+        "title": "Distribusi Regional",
+        "jawa": "Jawa",
+        "sumatera": "Sumatera",
+        "sulawesi": "Sulawesi",
+        "kalimantan": "Kalimantan",
+        "papuaMaluku": "Papua & Maluku"
+      },
+      "improvement": {
+        "title": "Peningkatan Kualitas",
+        "studentParticipation": "Partisipasi Siswa",
+        "teacherConfidence": "Kepercayaan Diri Guru",
+        "parentSatisfaction": "Kepuasan Orang Tua",
+        "learningOutcome": "Hasil Pembelajaran"
+      }
     }
   }
 }
