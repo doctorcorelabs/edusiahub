@@ -1,0 +1,82 @@
+{
+  "ai": {
+    "title": "Edusia AI: Your Smart Assistant",
+    "subtitle": "AI-powered tools to support inclusive education. Get personalized learning activities, communication assistance, and content adaptation.",
+    "disclaimer": "Edusia AI is an AI-powered assistance tool. Generated information and materials are intended as inspiration and initial drafts. This is NOT a medical diagnostic tool and does not replace consultation with professionals such as psychologists, therapists, or doctors. Please always use professional judgment and adapt results to your child's specific needs.",
+    "backToTools": "Back to Tools",
+    "generating": "Generating...",
+    "result": "Result",
+    "copySuccess": "Copied to clipboard!",
+    "copySuccessDesc": "The content has been copied to your clipboard.",
+    "copyError": "Copy failed",
+    "copyErrorDesc": "Failed to copy content to clipboard.",
+    "errorMessage": "An error occurred while generating the response. Please try again.",
+    "generateActivity": "Generate Activity Plan",
+    "generateMessage": "Generate Message Draft",
+    "simplifyNow": "Simplify Now",
+    "tools": {
+      "activityPlanner": {
+        "title": "Adaptive Activity Planner",
+        "description": "Create personalized learning activities for students with specific needs in regular classrooms."
+      },
+      "communicationAssistant": {
+        "title": "Empathetic Communication Assistant",
+        "description": "Help parents and teachers compose constructive and empathetic messages about child development."
+      },
+      "contentSimplifier": {
+        "title": "Content Simplifier",
+        "description": "Transform complex materials into simpler, more accessible formats for different learning needs."
+      }
+    },
+    "activityForm": {
+      "subject": "Subject",
+      "subjectPlaceholder": "e.g., Mathematics, Indonesian Language",
+      "topic": "Specific Topic",
+      "topicPlaceholder": "e.g., Fraction addition, Reading comprehension",
+      "grade": "Grade Level",
+      "gradePlaceholder": "Select grade level",
+      "specialNeed": "Student's Special Need (focus on one)",
+      "specialNeedPlaceholder": "Select special need",
+      "activityStyle": "Desired Activity Style",
+      "activityStylePlaceholder": "Select activity style"
+    },
+    "communicationForm": {
+      "role": "My Role",
+      "rolePlaceholder": "Select your role",
+      "target": "I Want to Communicate With",
+      "targetPlaceholder": "Select target",
+      "purpose": "Main Purpose of Message",
+      "purposePlaceholder": "Select purpose",
+      "keyPoints": "Key Points to Convey",
+      "keyPointsPlaceholder": "Describe what you want to communicate..."
+    },
+    "simplifierForm": {
+      "originalText": "Paste Original Text Here",
+      "originalTextPlaceholder": "Enter the text you want to simplify...",
+      "targetAudience": "Simplify For",
+      "targetAudiencePlaceholder": "Select target audience"
+    },
+    "features": {
+      "title": "How AI Empowers You",
+      "timeSaving": {
+        "title": "Save Time",
+        "description": "Automate time-consuming tasks like creating customized teaching materials."
+      },
+      "freshIdeas": {
+        "title": "Fresh Ideas",
+        "description": "Overcome creative blocks when designing activities or communication methods."
+      },
+      "accessibility": {
+        "title": "Enhance Accessibility",
+        "description": "Transform complex materials into more accessible formats."
+      },
+      "support": {
+        "title": "Initial Support",
+        "description": "Provide drafts or frameworks that can be refined by users."
+      }
+    }
+  },
+  "common": {
+    "language": "en"
+  }
+} 

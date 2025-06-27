@@ -12,6 +12,7 @@ import Resources from "./pages/Resources";
 import GetInvolved from "./pages/GetInvolved";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import AI from "./pages/AI";
 import MainLayout from "./components/MainLayout";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ const App = () => (
             <Route path="/challenges" element={<Challenges />} />
             <Route path="/solutions" element={<Solutions />} />
             <Route path="/resources" element={<Resources />} />
+            <Route path="/ai" element={<AI />} />
             <Route path="/get-involved" element={<GetInvolved />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />

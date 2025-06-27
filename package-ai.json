@@ -1,0 +1,13 @@
+{
+  "name": "edusiahub-ai-worker",
+  "version": "1.0.0",
+  "description": "AI backend for EdusiaHub inclusive education platform",
+  "main": "functions/api/ai/generate-alternative.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+} 

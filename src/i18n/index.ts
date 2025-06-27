@@ -4,13 +4,19 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 import en from './locales/en.json';
 import id from './locales/id.json';
+import { mergeAITranslations } from './ai-translations';
+import { updateHeaderNavigation } from './header-updates';
+
+// Merge AI translations and header updates with existing translations
+const enWithAI = mergeAITranslations(updateHeaderNavigation(en, 'en'), 'en');
+const idWithAI = mergeAITranslations(updateHeaderNavigation(id, 'id'), 'id');
 
 const resources = {
   en: {
-    translation: en,
+    translation: enWithAI,
   },
   id: {
-    translation: id,
+    translation: idWithAI,
   },
 };
 

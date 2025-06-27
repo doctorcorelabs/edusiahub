@@ -11,7 +11,8 @@ import {
   Newspaper,
   Mail,
   ChevronDown,
-  Compass
+  Compass,
+  Brain
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
@@ -31,13 +32,14 @@ const Header = () => {
     { name: t('header.navigation.challenges'), to: '/challenges', icon: BarChart2 },
     { name: t('header.navigation.solutions'), to: '/solutions', icon: Lightbulb },
     { name: t('header.navigation.resources'), to: '/resources', icon: BookOpen },
+    { name: t('header.navigation.ai'), to: '/ai', icon: Brain },
     { name: t('header.navigation.getInvolved'), to: '/get-involved', icon: Users },
     { name: t('header.navigation.blog'), to: '/blog', icon: Newspaper },
     { name: t('header.navigation.contact'), to: '/contact', icon: Mail },
   ];
 
-  const primaryNav = navigation.slice(0, 5);
-  const moreNav = navigation.slice(5);
+  const primaryNav = navigation.slice(0, 6);
+  const moreNav = navigation.slice(6);
 
   const isActive = (to: string) => location.pathname === to;
 
