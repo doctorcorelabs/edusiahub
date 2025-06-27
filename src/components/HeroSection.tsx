@@ -5,9 +5,11 @@ import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import ChallengeSection from './ChallengeSection';
 import SolutionSection from './SolutionSection';
+import { useNavigate } from 'react-router-dom';
 
 const HeroSection = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [isVisible, setIsVisible] = useState(false);
   const [currentStat, setCurrentStat] = useState(0);
 
@@ -401,6 +403,7 @@ const HeroSection = () => {
                 <Button 
                   size="lg" 
                   className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold shadow-lg transform hover:scale-105 transition-all duration-300 group"
+                  onClick={() => navigate('/solutions')}
                 >
                   {t('hero.buttons.discoverRole')}
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -409,6 +412,7 @@ const HeroSection = () => {
                   variant="outline" 
                   size="lg" 
                   className="px-8 py-4 text-lg font-semibold border-2 border-blue-600 text-blue-600 hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 group"
+                  onClick={() => navigate('/ai')}
                 >
                   <Play className="mr-2 w-5 h-5 group-hover:scale-110 transition-transform" />
                   {t('hero.buttons.viewData')}
