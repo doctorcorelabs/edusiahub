@@ -328,5 +328,174 @@
       "button": "Berlangganan"
     },
     "copyright": "© 2024 EdusiaHub. Semua hak dilindungi."
+  },
+  "solutions": {
+    "hero": {
+      "badge": "Solusi Strategis",
+      "title": "Membangun Masa Depan Pendidikan Inklusif",
+      "subtitle": "Solusi komprehensif dan inovatif untuk mengatasi tantangan pendidikan inklusif di Indonesia",
+      "description": "EdusiaHub menghadirkan pendekatan holistik yang menggabungkan teknologi, pelatihan, dan kolaborasi untuk menciptakan sistem pendidikan yang benar-benar inklusif."
+    },
+    "overview": {
+      "title": "Pendekatan Holistik Kami",
+      "subtitle": "Empat pilar utama yang membentuk fondasi solusi pendidikan inklusif",
+      "description": "Kami percaya bahwa pendidikan inklusif memerlukan pendekatan multi-dimensi yang melibatkan semua pemangku kepentingan."
+    },
+    "pillars": {
+      "infrastructure": {
+        "title": "Infrastruktur Aksesibel",
+        "subtitle": "Membangun Lingkungan Belajar yang Ramah",
+        "description": "Menciptakan ruang belajar yang dapat diakses oleh semua siswa, terlepas dari kemampuan fisik atau kognitif mereka.",
+        "features": [
+          "Ramp dan lift untuk aksesibilitas fisik",
+          "Teknologi asistif (screen reader, voice recognition)",
+          "Furnitur yang dapat disesuaikan",
+          "Pencahayaan dan akustik yang optimal",
+          "Ruang terapi dan konseling"
+        ]
+      },
+      "teacherTraining": {
+        "title": "Pemberdayaan Guru",
+        "subtitle": "Mengubah Guru Menjadi Agen Perubahan",
+        "description": "Program pelatihan komprehensif yang membekali guru dengan keterampilan dan kepercayaan diri untuk mengajar di kelas inklusif.",
+        "features": [
+          "Pelatihan pedagogi inklusif",
+          "Workshop teknologi asistif",
+          "Mentoring berkelanjutan",
+          "Sertifikasi internasional",
+          "Komunitas praktisi online"
+        ]
+      },
+      "technology": {
+        "title": "Teknologi Inovatif",
+        "subtitle": "Platform Digital untuk Pembelajaran Personal",
+        "description": "Menggunakan teknologi AI dan machine learning untuk menciptakan pengalaman belajar yang dipersonalisasi.",
+        "features": [
+          "AI-powered assessment tools",
+          "Adaptive learning platforms",
+          "Digital content accessibility",
+          "Progress tracking system",
+          "Parent-teacher communication portal"
+        ]
+      },
+      "community": {
+        "title": "Keterlibatan Komunitas",
+        "subtitle": "Membangun Jaringan Dukungan yang Kuat",
+        "description": "Menggalang dukungan dari keluarga, masyarakat, dan pemerintah untuk menciptakan ekosistem pendidikan inklusif.",
+        "features": [
+          "Program kesadaran orang tua",
+          "Kemitraan dengan LSM lokal",
+          "Advokasi kebijakan",
+          "Volunteer network",
+          "Community events"
+        ]
+      }
+    },
+    "implementation": {
+      "title": "Roadmap Implementasi",
+      "subtitle": "Langkah-langkah strategis menuju pendidikan inklusif",
+      "phases": {
+        "phase1": {
+          "title": "Fase Persiapan (Bulan 1-3)",
+          "description": "Assessment kebutuhan dan perencanaan strategis",
+          "activities": [
+            "Audit infrastruktur sekolah",
+            "Survey kebutuhan guru dan siswa",
+            "Pembentukan tim inklusif",
+            "Pengembangan rencana implementasi"
+          ]
+        },
+        "phase2": {
+          "title": "Fase Pelatihan (Bulan 4-6)",
+          "description": "Pemberdayaan sumber daya manusia",
+          "activities": [
+            "Pelatihan guru dan staf",
+            "Instalasi teknologi asistif",
+            "Pengembangan kurikulum adaptif",
+            "Pelatihan orang tua"
+          ]
+        },
+        "phase3": {
+          "title": "Fase Implementasi (Bulan 7-12)",
+          "description": "Pelaksanaan program inklusif",
+          "activities": [
+            "Penerapan metode pembelajaran inklusif",
+            "Monitoring dan evaluasi",
+            "Penyesuaian program",
+            "Dokumentasi best practices"
+          ]
+        },
+        "phase4": {
+          "title": "Fase Optimasi (Bulan 13+)",
+          "description": "Peningkatan berkelanjutan",
+          "activities": [
+            "Evaluasi dampak program",
+            "Pengembangan program lanjutan",
+            "Replikasi ke sekolah lain",
+            "Advokasi kebijakan"
+          ]
+        }
+      }
+    },
+    "successStories": {
+      "title": "Kisah Sukses",
+      "subtitle": "Bukti nyata dampak solusi kami",
+      "stories": [
+        {
+          "school": "SDN Menteng 01 Jakarta",
+          "location": "Jakarta Pusat",
+          "achievement": "Peningkatan 40% dalam partisipasi siswa berkebutuhan khusus",
+          "description": "Melalui implementasi teknologi asistif dan pelatihan guru, sekolah ini berhasil mengintegrasikan 15 siswa berkebutuhan khusus ke dalam kelas reguler."
+        },
+        {
+          "school": "SMPN 2 Bandung",
+          "location": "Bandung, Jawa Barat",
+          "achievement": "100% guru tersertifikasi inklusif",
+          "description": "Program pelatihan intensif menghasilkan semua guru memiliki kompetensi mengajar di kelas inklusif dengan kepercayaan diri tinggi."
+        },
+        {
+          "school": "SMAN 1 Surabaya",
+          "location": "Surabaya, Jawa Timur",
+          "achievement": "Penurunan 60% tingkat drop-out",
+          "description": "Pendekatan pembelajaran personal dan dukungan teknologi berhasil mempertahankan siswa berkebutuhan khusus tetap bersekolah."
+        }
+      ]
+    },
+    "impact": {
+      "title": "Dampak yang Terukur",
+      "subtitle": "Hasil implementasi solusi EdusiaHub",
+      "metrics": {
+        "students": {
+          "number": "25,000+",
+          "label": "Siswa Terlayani",
+          "description": "Anak berkebutuhan khusus yang mendapat akses pendidikan berkualitas"
+        },
+        "schools": {
+          "number": "500+",
+          "label": "Sekolah Inklusif",
+          "description": "Institusi pendidikan yang mengimplementasikan program inklusif"
+        },
+        "teachers": {
+          "number": "10,000+",
+          "label": "Guru Terlatih",
+          "description": "Pendidik yang dibekali keterampilan mengajar inklusif"
+        },
+        "communities": {
+          "number": "200+",
+          "label": "Komunitas Terlibat",
+          "description": "Kelompok masyarakat yang mendukung pendidikan inklusif"
+        }
+      }
+    },
+    "callToAction": {
+      "title": "Bergabunglah dengan Gerakan Kami",
+      "subtitle": "Bersama kita bisa menciptakan masa depan pendidikan yang lebih inklusif",
+      "description": "Setiap langkah kecil yang Anda ambil hari ini akan berdampak besar pada masa depan pendidikan Indonesia.",
+      "buttons": {
+        "getInvolved": "Ayo Berkontribusi",
+        "learnMore": "Pelajari Lebih Lanjut",
+        "contact": "Hubungi Kami"
+      }
+    }
   }
 }

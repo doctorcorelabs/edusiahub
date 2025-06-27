@@ -312,6 +312,175 @@
       "learnMore": "Learn More"
     }
   },
+  "solutions": {
+    "hero": {
+      "badge": "Strategic Solutions",
+      "title": "Building the Future of Inclusive Education",
+      "subtitle": "Comprehensive and innovative solutions to address inclusive education challenges in Indonesia",
+      "description": "EdusiaHub presents a holistic approach that combines technology, training, and collaboration to create a truly inclusive education system."
+    },
+    "overview": {
+      "title": "Our Holistic Approach",
+      "subtitle": "Four main pillars that form the foundation of inclusive education solutions",
+      "description": "We believe that inclusive education requires a multi-dimensional approach involving all stakeholders."
+    },
+    "pillars": {
+      "infrastructure": {
+        "title": "Accessible Infrastructure",
+        "subtitle": "Building Friendly Learning Environments",
+        "description": "Creating learning spaces accessible to all students, regardless of their physical or cognitive abilities.",
+        "features": [
+          "Ramps and lifts for physical accessibility",
+          "Assistive technology (screen readers, voice recognition)",
+          "Adjustable furniture",
+          "Optimal lighting and acoustics",
+          "Therapy and counseling rooms"
+        ]
+      },
+      "teacherTraining": {
+        "title": "Teacher Empowerment",
+        "subtitle": "Transforming Teachers into Change Agents",
+        "description": "Comprehensive training programs that equip teachers with skills and confidence to teach in inclusive classrooms.",
+        "features": [
+          "Inclusive pedagogy training",
+          "Assistive technology workshops",
+          "Ongoing mentoring",
+          "International certification",
+          "Online practitioner community"
+        ]
+      },
+      "technology": {
+        "title": "Innovative Technology",
+        "subtitle": "Digital Platforms for Personalized Learning",
+        "description": "Using AI and machine learning technology to create personalized learning experiences.",
+        "features": [
+          "AI-powered assessment tools",
+          "Adaptive learning platforms",
+          "Digital content accessibility",
+          "Progress tracking system",
+          "Parent-teacher communication portal"
+        ]
+      },
+      "community": {
+        "title": "Community Engagement",
+        "subtitle": "Building Strong Support Networks",
+        "description": "Mobilizing support from families, communities, and government to create an inclusive education ecosystem.",
+        "features": [
+          "Parent awareness programs",
+          "Partnerships with local NGOs",
+          "Policy advocacy",
+          "Volunteer network",
+          "Community events"
+        ]
+      }
+    },
+    "implementation": {
+      "title": "Implementation Roadmap",
+      "subtitle": "Strategic steps towards inclusive education",
+      "phases": {
+        "phase1": {
+          "title": "Preparation Phase (Months 1-3)",
+          "description": "Needs assessment and strategic planning",
+          "activities": [
+            "School infrastructure audit",
+            "Teacher and student needs survey",
+            "Inclusive team formation",
+            "Implementation plan development"
+          ]
+        },
+        "phase2": {
+          "title": "Training Phase (Months 4-6)",
+          "description": "Human resource empowerment",
+          "activities": [
+            "Teacher and staff training",
+            "Assistive technology installation",
+            "Adaptive curriculum development",
+            "Parent training"
+          ]
+        },
+        "phase3": {
+          "title": "Implementation Phase (Months 7-12)",
+          "description": "Inclusive program execution",
+          "activities": [
+            "Inclusive teaching method application",
+            "Monitoring and evaluation",
+            "Program adjustments",
+            "Best practices documentation"
+          ]
+        },
+        "phase4": {
+          "title": "Optimization Phase (Months 13+)",
+          "description": "Continuous improvement",
+          "activities": [
+            "Program impact evaluation",
+            "Advanced program development",
+            "Replication to other schools",
+            "Policy advocacy"
+          ]
+        }
+      }
+    },
+    "successStories": {
+      "title": "Success Stories",
+      "subtitle": "Real evidence of our solution impact",
+      "stories": [
+        {
+          "school": "SDN Menteng 01 Jakarta",
+          "location": "Central Jakarta",
+          "achievement": "40% increase in special needs student participation",
+          "description": "Through assistive technology implementation and teacher training, this school successfully integrated 15 special needs students into regular classes."
+        },
+        {
+          "school": "SMPN 2 Bandung",
+          "location": "Bandung, West Java",
+          "achievement": "100% of teachers certified in inclusive education",
+          "description": "Intensive training program resulted in all teachers having competence to teach in inclusive classrooms with high confidence."
+        },
+        {
+          "school": "SMAN 1 Surabaya",
+          "location": "Surabaya, East Java",
+          "achievement": "60% reduction in dropout rates",
+          "description": "Personalized learning approach and technology support successfully kept special needs students in school."
+        }
+      ]
+    },
+    "impact": {
+      "title": "Measurable Impact",
+      "subtitle": "Results of EdusiaHub solution implementation",
+      "metrics": {
+        "students": {
+          "number": "25,000+",
+          "label": "Students Served",
+          "description": "Children with special needs who received quality education access"
+        },
+        "schools": {
+          "number": "500+",
+          "label": "Inclusive Schools",
+          "description": "Educational institutions implementing inclusive programs"
+        },
+        "teachers": {
+          "number": "10,000+",
+          "label": "Trained Teachers",
+          "description": "Educators equipped with inclusive teaching skills"
+        },
+        "communities": {
+          "number": "200+",
+          "label": "Communities Involved",
+          "description": "Community groups supporting inclusive education"
+        }
+      }
+    },
+    "callToAction": {
+      "title": "Join Our Movement",
+      "subtitle": "Together we can create a more inclusive educational future",
+      "description": "Every small step you take today will have a big impact on Indonesia's educational future.",
+      "buttons": {
+        "getInvolved": "Get Involved",
+        "learnMore": "Learn More",
+        "contact": "Contact Us"
+      }
+    }
+  },
   "footer": {
     "description": "EdusiaHub is dedicated to advancing inclusive education in Indonesia through research, advocacy, and practical solutions.",
     "links": {

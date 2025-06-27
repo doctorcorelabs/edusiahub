@@ -56,7 +56,7 @@ import {
   PolarRadiusAxis,
   ComposedChart
 } from "recharts";
-import { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendContent, type ChartConfig } from "@/components/ui/chart";
+import { Chart, ChartData } from "@/components/ui/chart";
 import { useTranslation } from 'react-i18next';
 
 const Challenges = () => {
@@ -171,7 +171,7 @@ const Challenges = () => {
     "Total Guru": {
       label: isIndonesian ? "Total Guru (%)" : "Total Teachers (%)",
     },
-  } satisfies ChartConfig;
+  };
 
   const COLORS = ['#3B82F6', '#10B981', '#F59E0B', '#8B5CF6', '#EF4444', '#6B7280'];
 
