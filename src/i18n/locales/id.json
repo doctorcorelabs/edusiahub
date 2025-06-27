@@ -409,5 +409,72 @@
   },
   "common": {
     "language": "id"
+  },
+  "resources": {
+    "title": "Pusat Sumber Daya",
+    "subtitle": "Temukan berbagai video edukasi, webinar, dan materi pembelajaran seputar pendidikan inklusif.",
+    "videos": [
+      {
+        "id": "ZIPsPRaZP6M",
+        "title": "The power of inclusive education | Ilene Schwartz | TEDxEastsidePrep",
+        "description": "",
+        "duration": "",
+        "views": "",
+        "category": "Inspirasi"
+      },
+      {
+        "id": "kEyjlqixq9c",
+        "title": "Inclusion and Education: #AllmeansALL​ I GEM Report UNESCO",
+        "description": "",
+        "duration": "",
+        "views": "",
+        "category": "Praktik"
+      },
+      {
+        "id": "CtRY_1mZWWg",
+        "title": "Reimagining Disability & Inclusive Education | Jan Wilson | TEDxUniversityofTulsa",
+        "description": "",
+        "duration": "",
+        "views": "",
+        "category": "Teknologi"
+      },
+      {
+        "id": "rfWhQUz2J70",
+        "title": "Inclusive Education and Children with Disabilities | UNICEF",
+        "description": "",
+        "duration": "",
+        "views": "",
+        "category": "Kolaborasi"
+      },
+      {
+        "id": "FolCetXtYG0",
+        "title": "Inclusive education: a way to think differently about difference | Peter Walker",
+        "description": "",
+        "duration": "",
+        "views": "",
+        "category": "Evaluasi"
+      },
+      {
+        "id": "7euYspGvBsY",
+        "title": "The Inclusion Classroom: An Inclusive Education Movement",
+        "description": "",
+        "duration": "",
+        "views": "",
+        "category": "Kisah Sukses"
+      }
+    ],
+    "labelViews": "tayangan",
+    "buttonWatch": "Tonton Video",
+    "ctaTitle": "Butuh Bantuan Lebih Lanjut?",
+    "ctaDesc": "Tim kami siap membantu Anda mengimplementasikan pendidikan inklusif yang efektif.",
+    "ctaButton": "Hubungi Kami",
+    "categories": {
+      "Inspirasi": "Inspirasi",
+      "Praktik": "Praktik",
+      "Teknologi": "Teknologi",
+      "Kolaborasi": "Kolaborasi",
+      "Evaluasi": "Evaluasi",
+      "Kisah Sukses": "Kisah Sukses"
+    }
   }
 }

@@ -523,5 +523,72 @@
       "button": "Subscribe"
     },
     "copyright": "© 2024 EdusiaHub. All rights reserved."
+  },
+  "resources": {
+    "title": "Resource Center",
+    "subtitle": "Find a variety of educational videos, webinars, and learning materials about inclusive education.",
+    "videos": [
+      {
+        "id": "ZIPsPRaZP6M",
+        "title": "The power of inclusive education | Ilene Schwartz | TEDxEastsidePrep",
+        "description": "",
+        "duration": "",
+        "views": "",
+        "category": "Inspiration"
+      },
+      {
+        "id": "kEyjlqixq9c",
+        "title": "Inclusion and Education: #AllmeansALL​ I GEM Report UNESCO",
+        "description": "",
+        "duration": "",
+        "views": "",
+        "category": "Practice"
+      },
+      {
+        "id": "CtRY_1mZWWg",
+        "title": "Reimagining Disability & Inclusive Education | Jan Wilson | TEDxUniversityofTulsa",
+        "description": "",
+        "duration": "",
+        "views": "",
+        "category": "Technology"
+      },
+      {
+        "id": "rfWhQUz2J70",
+        "title": "Inclusive Education and Children with Disabilities | UNICEF",
+        "description": "",
+        "duration": "",
+        "views": "",
+        "category": "Collaboration"
+      },
+      {
+        "id": "FolCetXtYG0",
+        "title": "Inclusive education: a way to think differently about difference | Peter Walker",
+        "description": "",
+        "duration": "",
+        "views": "",
+        "category": "Evaluation"
+      },
+      {
+        "id": "7euYspGvBsY",
+        "title": "The Inclusion Classroom: An Inclusive Education Movement",
+        "description": "",
+        "duration": "",
+        "views": "",
+        "category": "Success Story"
+      }
+    ],
+    "labelViews": "views",
+    "buttonWatch": "Watch Video",
+    "ctaTitle": "Need More Help?",
+    "ctaDesc": "Our team is ready to help you implement effective inclusive education.",
+    "ctaButton": "Contact Us",
+    "categories": {
+      "Inspiration": "Inspiration",
+      "Practice": "Practice",
+      "Technology": "Technology",
+      "Collaboration": "Collaboration",
+      "Evaluation": "Evaluation",
+      "Success Story": "Success Story"
+    }
   }
 }
