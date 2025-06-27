@@ -176,6 +176,93 @@
     "title": "The Reality We Face",
     "subtitle": "Understanding the challenges of inclusive education in Indonesia",
     "description": "While the vision of inclusive education is clear, the path to implementation faces significant obstacles that require our collective attention and action.",
+    "hero": {
+      "badge": "Inclusive Education Challenges",
+      "title": "Every Child Has the Right to Learn, Reality Tells a Different Story",
+      "subtitle": "Exploring the real challenges that hinder the realization of inclusive education for all children in Indonesia.",
+      "stats": {
+        "children": "2.5M+",
+        "childrenLabel": "Children with Special Needs",
+        "noAccess": "30%",
+        "noAccessLabel": "Lack Access",
+        "notReady": "65%",
+        "notReadyLabel": "Schools Not Ready"
+      }
+    },
+    "overview": {
+      "title": "Inclusive Education Challenge Map",
+      "subtitle": "Six main pillars pose significant challenges that we must face together for a better educational future.",
+      "severity": "Severity Level",
+      "impact": "Impact"
+    },
+    "data": {
+      "title": "Numbers Behind the Story",
+      "tabs": {
+        "overview": "Overview",
+        "participation": "Participation",
+        "facilities": "Facilities",
+        "regional": "Regional Comparison"
+      },
+      "charts": {
+        "trends": "Inclusive Education Implementation Trends",
+        "distribution": "Challenge Distribution by Category",
+        "participation": "Gross Participation Rate (GPR) vs Target",
+        "facilities": "Availability of Disability-Friendly Facilities",
+        "teachers": "Teachers with Inclusive Training by Region",
+        "regional": "Regional Readiness Comparison"
+      },
+      "labels": {
+        "policy": "Policy",
+        "implementation": "Implementation",
+        "awareness": "Awareness",
+        "severity": "Severity Level",
+        "participation": "Participation (%)",
+        "target": "Target (%)",
+        "trainedTeachers": "Trained Teachers (%)",
+        "totalTeachers": "Total Teachers (%)",
+        "infrastructure": "Infrastructure",
+        "teachers": "Teachers",
+        "stigma": "Stigma"
+      }
+    },
+    "analysis": {
+      "title": "Deep Analysis of Challenges",
+      "infrastructure": {
+        "title": "Infrastructure Challenges",
+        "physicalAccess": "Physical Access",
+        "assistiveTech": "Assistive Technology",
+        "digitalConnectivity": "Digital Connectivity"
+      },
+      "hr": {
+        "title": "Human Resource Challenges",
+        "teacherTraining": "Teacher Training",
+        "teacherStudentRatio": "Teacher-Student Ratio",
+        "specialistSupport": "Specialist Support"
+      },
+      "social": {
+        "title": "Social & Cultural Challenges",
+        "communityStigma": "Community Stigma",
+        "familyAwareness": "Family Awareness",
+        "communitySupport": "Community Support"
+      },
+      "policy": {
+        "title": "Policy & Regulatory Challenges",
+        "policyImplementation": "Policy Implementation",
+        "budgetAllocation": "Budget Allocation",
+        "crossSectorCoordination": "Cross-Sector Coordination"
+      }
+    },
+    "testimonials": {
+      "title": "Voices of Those Affected"
+    },
+    "cta": {
+      "title": "These Challenges Are Real. So Are the Opportunities.",
+      "subtitle": "Seeing the challenges is the first step. The next step is becoming part of the solution. Let's move together towards better inclusive education.",
+      "buttons": {
+        "solutions": "View Our Solutions",
+        "involved": "Get Involved"
+      }
+    },
     "challenge1": {
       "title": "Limited Infrastructure",
       "description": "Many schools lack the physical and technological infrastructure needed to support diverse learning needs.",

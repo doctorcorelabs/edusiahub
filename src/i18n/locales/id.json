@@ -176,6 +176,93 @@
     "title": "Realita yang Kita Hadapi",
     "subtitle": "Memahami tantangan pendidikan inklusif di Indonesia",
     "description": "Meskipun visi pendidikan inklusif sudah jelas, jalan menuju implementasi menghadapi hambatan signifikan yang memerlukan perhatian dan tindakan kolektif kita.",
+    "hero": {
+      "badge": "Tantangan Pendidikan Inklusif",
+      "title": "Setiap Anak Berhak Belajar, Realita Masih Berbicara Lain",
+      "subtitle": "Menyelami tantangan nyata yang menghalangi terwujudnya pendidikan inklusif untuk semua anak di Indonesia.",
+      "stats": {
+        "children": "2.5M+",
+        "childrenLabel": "Anak Berkebutuhan Khusus",
+        "noAccess": "30%",
+        "noAccessLabel": "Tidak Memiliki Akses",
+        "notReady": "65%",
+        "notReadyLabel": "Sekolah Belum Siap"
+      }
+    },
+    "overview": {
+      "title": "Peta Masalah Pendidikan Inklusif",
+      "subtitle": "Enam pilar utama menjadi tantangan besar yang harus kita hadapi bersama untuk masa depan pendidikan yang lebih baik.",
+      "severity": "Tingkat Keparahan",
+      "impact": "Dampak"
+    },
+    "data": {
+      "title": "Angka di Balik Cerita",
+      "tabs": {
+        "overview": "Gambaran Umum",
+        "participation": "Partisipasi",
+        "facilities": "Fasilitas",
+        "regional": "Perbandingan Regional"
+      },
+      "charts": {
+        "trends": "Tren Implementasi Pendidikan Inklusif",
+        "distribution": "Distribusi Tantangan Berdasarkan Kategori",
+        "participation": "Angka Partisipasi Kasar (APK) vs Target",
+        "facilities": "Ketersediaan Fasilitas Ramah Disabilitas",
+        "teachers": "Guru dengan Pelatihan Inklusi per Wilayah",
+        "regional": "Perbandingan Kesiapan Regional"
+      },
+      "labels": {
+        "policy": "Kebijakan",
+        "implementation": "Implementasi",
+        "awareness": "Kesadaran",
+        "severity": "Tingkat Keparahan",
+        "participation": "Partisipasi (%)",
+        "target": "Target (%)",
+        "trainedTeachers": "Guru Terlatih (%)",
+        "totalTeachers": "Total Guru (%)",
+        "infrastructure": "Infrastruktur",
+        "teachers": "Guru",
+        "stigma": "Stigma"
+      }
+    },
+    "analysis": {
+      "title": "Analisis Mendalam Tantangan",
+      "infrastructure": {
+        "title": "Tantangan Infrastruktur",
+        "physicalAccess": "Akses Fisik",
+        "assistiveTech": "Teknologi Asistif",
+        "digitalConnectivity": "Konektivitas Digital"
+      },
+      "hr": {
+        "title": "Tantangan Sumber Daya Manusia",
+        "teacherTraining": "Pelatihan Guru",
+        "teacherStudentRatio": "Rasio Guru-Siswa",
+        "specialistSupport": "Dukungan Spesialis"
+      },
+      "social": {
+        "title": "Tantangan Sosial & Budaya",
+        "communityStigma": "Stigma Masyarakat",
+        "familyAwareness": "Kesadaran Keluarga",
+        "communitySupport": "Dukungan Komunitas"
+      },
+      "policy": {
+        "title": "Tantangan Kebijakan & Regulasi",
+        "policyImplementation": "Implementasi Kebijakan",
+        "budgetAllocation": "Alokasi Anggaran",
+        "crossSectorCoordination": "Koordinasi Antar Sektor"
+      }
+    },
+    "testimonials": {
+      "title": "Suara Mereka yang Terdampak"
+    },
+    "cta": {
+      "title": "Tantangan Ini Nyata. Begitu Pula Peluangnya.",
+      "subtitle": "Melihat tantangan adalah langkah pertama. Langkah berikutnya adalah menjadi bagian dari solusi. Mari bergerak bersama menuju pendidikan inklusif yang lebih baik.",
+      "buttons": {
+        "solutions": "Lihat Solusi Kami",
+        "involved": "Ikut Terlibat"
+      }
+    },
     "challenge1": {
       "title": "Infrastruktur Terbatas",
       "description": "Banyak sekolah kekurangan infrastruktur fisik dan teknologi yang diperlukan untuk mendukung kebutuhan pembelajaran yang beragam.",
