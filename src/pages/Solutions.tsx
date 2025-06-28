@@ -62,27 +62,27 @@ const Solutions = () => {
   ];
 
   // Chart data for visualizations (now using translation keys)
-  const impactData: ChartData[] = [
+  const impactData: ChartData[] = React.useMemo(() => [
     { label: t('solutions.data.impact.students'), value: 25000, color: '#3B82F6' },
     { label: t('solutions.data.impact.schools'), value: 500, color: '#10B981' },
     { label: t('solutions.data.impact.teachers'), value: 10000, color: '#8B5CF6' },
     { label: t('solutions.data.impact.communities'), value: 200, color: '#F59E0B' }
-  ];
+  ], [t]);
 
-  const regionalData: ChartData[] = [
+  const regionalData: ChartData[] = React.useMemo(() => [
     { label: t('solutions.data.regional.jawa'), value: 45, color: '#3B82F6' },
     { label: t('solutions.data.regional.sumatera'), value: 25, color: '#10B981' },
     { label: t('solutions.data.regional.sulawesi'), value: 15, color: '#8B5CF6' },
     { label: t('solutions.data.regional.kalimantan'), value: 10, color: '#F59E0B' },
     { label: t('solutions.data.regional.papuaMaluku'), value: 5, color: '#EF4444' }
-  ];
+  ], [t]);
 
-  const improvementData: ChartData[] = [
+  const improvementData: ChartData[] = React.useMemo(() => [
     { label: t('solutions.data.improvement.studentParticipation'), value: 85, color: '#3B82F6' },
     { label: t('solutions.data.improvement.teacherConfidence'), value: 90, color: '#10B981' },
     { label: t('solutions.data.improvement.parentSatisfaction'), value: 78, color: '#8B5CF6' },
     { label: t('solutions.data.improvement.learningOutcome'), value: 82, color: '#F59E0B' }
-  ];
+  ], [t]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">

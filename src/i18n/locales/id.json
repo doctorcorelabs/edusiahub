@@ -283,24 +283,168 @@
       "statLabel": "keluarga menghadapi diskriminasi"
     }
   },
-  "solution": {
+  "solutions": {
     "title": "Solusi Strategis",
     "subtitle": "Pendekatan komprehensif untuk membangun sistem pendidikan inklusif",
     "description": "Kami percaya pada solusi praktis dan dapat diskalakan yang mengatasi akar penyebab eksklusi pendidikan.",
-    "solution1": {
-      "title": "Pengembangan Infrastruktur",
-      "description": "Membangun lingkungan belajar yang aksesibel dengan teknologi modern dan alat adaptif.",
-      "feature": "Prinsip desain universal"
+    "hero": {
+      "badge": "Solusi Strategis",
+      "title": "Membangun Masa Depan Pendidikan Inklusif",
+      "subtitle": "Solusi komprehensif dan inovatif untuk mengatasi tantangan pendidikan inklusif di Indonesia",
+      "description": "EdusiaHub menghadirkan pendekatan holistik yang menggabungkan teknologi, pelatihan, dan kolaborasi untuk menciptakan sistem pendidikan yang benar-benar inklusif."
     },
-    "solution2": {
-      "title": "Pemberdayaan Guru",
-      "description": "Program pelatihan komprehensif yang melengkapi pendidik dengan strategi mengajar inklusif.",
-      "feature": "Program sertifikasi khusus"
+    "overview": {
+      "title": "Pendekatan Holistik Kami",
+      "subtitle": "Empat pilar utama yang menjadi fondasi solusi pendidikan inklusif",
+      "description": "Kami percaya pendidikan inklusif membutuhkan pendekatan multidimensi yang melibatkan seluruh pemangku kepentingan."
     },
-    "solution3": {
-      "title": "Keterlibatan Komunitas",
-      "description": "Mendorong kemitraan antara sekolah, keluarga, dan komunitas untuk menciptakan ekosistem yang mendukung.",
-      "feature": "Program pendidikan orang tua"
+    "pillars": {
+      "infrastructure": {
+        "title": "Infrastruktur Aksesibel",
+        "subtitle": "Membangun Lingkungan Belajar Ramah Semua Anak",
+        "description": "Menciptakan ruang belajar yang dapat diakses semua siswa, tanpa memandang kemampuan fisik atau kognitif.",
+        "features": [
+          "Ruang kelas dengan ramp dan lift",
+          "Teknologi asistif (screen reader, voice recognition)",
+          "Furnitur yang dapat disesuaikan",
+          "Pencahayaan dan akustik optimal",
+          "Ruang terapi dan konseling"
+        ]
+      },
+      "teacherTraining": {
+        "title": "Pemberdayaan Guru",
+        "subtitle": "Mengubah Guru Menjadi Agen Perubahan",
+        "description": "Program pelatihan komprehensif yang membekali guru dengan keterampilan dan kepercayaan diri untuk mengajar di kelas inklusif.",
+        "features": [
+          "Pelatihan pedagogi inklusif",
+          "Workshop teknologi asistif",
+          "Pendampingan berkelanjutan",
+          "Sertifikasi internasional",
+          "Komunitas praktisi daring"
+        ]
+      },
+      "technology": {
+        "title": "Teknologi Inovatif",
+        "subtitle": "Platform Digital untuk Pembelajaran Personal",
+        "description": "Menggunakan teknologi AI dan machine learning untuk menciptakan pengalaman belajar yang dipersonalisasi.",
+        "features": [
+          "Alat asesmen berbasis AI",
+          "Platform pembelajaran adaptif",
+          "Aksesibilitas konten digital",
+          "Sistem pemantauan kemajuan",
+          "Portal komunikasi orang tua-guru"
+        ]
+      },
+      "community": {
+        "title": "Keterlibatan Komunitas",
+        "subtitle": "Membangun Jejaring Dukungan Kuat",
+        "description": "Menggerakkan dukungan dari keluarga, komunitas, dan pemerintah untuk menciptakan ekosistem pendidikan inklusif.",
+        "features": [
+          "Program penyadaran orang tua",
+          "Kemitraan dengan LSM lokal",
+          "Advokasi kebijakan",
+          "Jaringan relawan",
+          "Acara komunitas"
+        ]
+      }
+    },
+    "implementation": {
+      "title": "Peta Jalan Implementasi",
+      "subtitle": "Langkah strategis menuju pendidikan inklusif",
+      "phases": {
+        "phase1": {
+          "title": "Fase Persiapan (Bulan 1-3)",
+          "description": "Asesmen kebutuhan dan perencanaan strategis",
+          "activities": [
+            "Audit infrastruktur sekolah",
+            "Survei kebutuhan guru dan siswa",
+            "Pembentukan tim inklusi",
+            "Penyusunan rencana implementasi"
+          ]
+        },
+        "phase2": {
+          "title": "Fase Pelatihan (Bulan 4-6)",
+          "description": "Pemberdayaan sumber daya manusia",
+          "activities": [
+            "Pelatihan guru dan staf",
+            "Instalasi teknologi asistif",
+            "Pengembangan kurikulum adaptif",
+            "Pelatihan orang tua"
+          ]
+        },
+        "phase3": {
+          "title": "Fase Implementasi (Bulan 7-12)",
+          "description": "Pelaksanaan program inklusif",
+          "activities": [
+            "Penerapan metode pengajaran inklusif",
+            "Monitoring dan evaluasi",
+            "Penyesuaian program",
+            "Dokumentasi praktik terbaik"
+          ]
+        },
+        "phase4": {
+          "title": "Fase Optimasi (Bulan 13+)",
+          "description": "Perbaikan berkelanjutan",
+          "activities": [
+            "Evaluasi dampak program",
+            "Pengembangan program lanjutan",
+            "Replikasi ke sekolah lain",
+            "Advokasi kebijakan"
+          ]
+        }
+      }
+    },
+    "data": {
+      "title": "Data & Analisis",
+      "subtitle": "Visualisasi dampak dan distribusi program pendidikan inklusif",
+      "impact": {
+        "title": "Dampak Program",
+        "students": "Siswa Terlayani",
+        "schools": "Sekolah Inklusif",
+        "teachers": "Guru Terlatih",
+        "communities": "Komunitas Terlibat"
+      },
+      "regional": {
+        "title": "Distribusi Regional",
+        "jawa": "Jawa",
+        "sumatera": "Sumatera",
+        "sulawesi": "Sulawesi",
+        "kalimantan": "Kalimantan",
+        "papuaMaluku": "Papua & Maluku"
+      },
+      "improvement": {
+        "title": "Peningkatan Kualitas",
+        "studentParticipation": "Partisipasi Siswa",
+        "teacherConfidence": "Kepercayaan Diri Guru",
+        "parentSatisfaction": "Kepuasan Orang Tua",
+        "learningOutcome": "Hasil Belajar"
+      }
+    },
+    "impact": {
+      "title": "Dampak Terukur",
+      "subtitle": "Hasil implementasi solusi EdusiaHub",
+      "metrics": {
+        "students": {
+          "number": "25.000+",
+          "label": "Siswa Terlayani",
+          "description": "Anak berkebutuhan khusus yang mendapat akses pendidikan berkualitas"
+        },
+        "schools": {
+          "number": "500+",
+          "label": "Sekolah Inklusif",
+          "description": "Institusi pendidikan yang mengimplementasikan program inklusif"
+        },
+        "teachers": {
+          "number": "10.000+",
+          "label": "Guru Terlatih",
+          "description": "Pendidik yang dibekali keterampilan mengajar inklusif"
+        },
+        "communities": {
+          "number": "200+",
+          "label": "Komunitas Terlibat",
+          "description": "Kelompok masyarakat yang mendukung pendidikan inklusif"
+        }
+      }
     }
   },
   "callToAction": {
